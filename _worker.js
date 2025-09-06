@@ -14,19 +14,19 @@ let parsedSocks5Address = {};
 let enableSocks = false;
 let enableHttp = false;
 let noTLS = 'false';
-const expire = 4102329600;//2099-12-31
-let proxyIPs;
-let socks5s;
-let go2Socks5s = [
+常量 过期 = 4102329600;//2099-12-31
+让 代理IP;
+让 袜子5秒;
+让 开2Socks5s = [
     '*ttvnw.net',
     '*tapecontent.net',
     '*cloudatacdn.com',
     '*.loadshare.org',
 ];
-let addresses = [];
-let addressesapi = [];
-let addressesnotls = [];
-let addressesnotlsapi = [];
+让 地址 = [];
+让 地址 = [];
+让 地址不使用tls = [];
+让 地址不使用tlsapi = [];
 let addressescsv = [];
 let DLS = 8;
 let remarkIndex = 1;//CSV备注所在列偏移量
@@ -4568,3 +4568,4 @@ async function nginx() {
 	`
     return text;
 }
+
